@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Impoingeniería</title>
+    <title>Cabalgatas</title>
     <link rel="icon" href="media/images/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -11,7 +11,7 @@
     
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg justify-content-center navbar-dark fixed-top" style="height: 80px;background-color: #4F8A8B; width: 100%;">
+    <nav class="navbar navbar-expand-lg justify-content-center navbar-dark fixed-top" style="height: 80px;background-color: black; width: 100%;">
         <div class="container" >
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars navbar-toggler-icon"></i>
@@ -47,29 +47,213 @@
             </div>  
         </div>
     </nav>
-    <div class="container-fluid" style="margin: 0%; padding: 0%; height: 100vh; width: 100%; position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center;">
-        <video autoplay loop muted style="position: absolute; min-width: 100%; max-height: 100%; width: auto; height: auto; left: 50%; top: 50%; transform: translate(-50%, -50%); object-fit: cover; z-index: -1;">
-            <source src="media/videos/home.mp4" type="video/mp4">
-            <!-- Aquí puedes agregar más formatos de video para mejorar la compatibilidad -->
+    <div id="contenedor-home" class="container-fluid">
+        <video autoplay loop muted id="video-home">
+          <source src="media/videos/home.mp4" type="video/mp4">
+          <!-- Aquí puedes agregar más formatos de video para mejorar la compatibilidad -->
         </video>
-        <p style="position: absolute; top: 200px; left: 4%;  text-align: left; background-color: rgba(79, 138, 139, 0.7); padding: 10px; color: white; width: 80%;"><b style="font-size:60px;">Las mejores cabalgatas de Medellín</b><br><br>Disfruta con nosotros de una experiencia inolvidable, explorando hermosos paisajes y senderos, y conectándote con la naturaleza y los equinos. Sal de la rutina y sumérgete en esta experiencia única en la ciudad de Medellín y sus alrededores. 🐴🌳🏞️ ¡Te esperamos para vivir una aventura colosal!</p>
+        <p id="titulo-home">Las mejores cabalgatas<br><b>DE MEDELLÍN</b></p>
+        <p id="texto-home">
+          Disfruta con nosotros de una experiencia inolvidable, explorando hermosos paisajes y senderos,
+          y conectándote con la naturaleza y los equinos. Sal de la rutina y sumérgete en esta experiencia
+          única en la ciudad de Medellín y sus alrededores. 🐴🌳🏞️ ¡Te esperamos para vivir una aventura
+          colosal!
+        </p>
     </div>
+      
+    <div style="margin-left: 5%; margin-right: 5%;width: 90%;height: 5px;background-color: lightgray; margin-top: 20px;margin-bottom: 20px;"></div>
     
-    
-    <p style="margin-top: 100vh;">nada</p>
-
-    <div class="container mt-5">
-        <div class="row" >
-            <div class="col-md-6" style="margin-top: 30px;">
-                <div class="titulo-home">
-    
+    <div class="container" style="overflow-x: hidden; width: 100%;">
+        <img style="width: 100%;" src="media/images/planes/titulo_planes.png"
+    </div>
+    <div class="container">
+        <p style="font-size: 20px;">Embárcate en una aventura ecuestre única con nuestros planes de alquiler de caballos. Disfruta de recorridos panorámicos, avistamiento de aves y cruce de ríos en Caldas, Antioquia. Nuestros guías expertos te acompañarán para asegurar una experiencia segura y emocionante. 🎶 Puedes elegir tu música favorita para acompañar el viaje.</p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div class="card" >
+                    <img src="media/images/planes/plan_uno.png" class="card-img-top" alt="Plan 1" style="box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);background-color: #48a6a8; border-top-left-radius: 30px;">
+                    <div class="card-body">
+                        <p class="card-text">
+                            <br>• Recorrido por senderos ecológicos
+                            <br>• Guía turístico
+                            <br>• Burroteca
+                            <br>• Parqueadero
+                            <br>• Equinos bien cuidados
+                            <br>• Remate en fonda*
+                            <br>
+                            <br>
+                        </p>
+                        
+                        <h3 class="card-title" style="width: 100%; text-align: center;">$99.000</h3>
+                        <a href="#" class="btn btn-primary" style="background-color: #fecb75;border-color: #fecb75; color: black;font-size: 20px;width: 100%;">Reservar ahora</a>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-6 " >
-            
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div class="card">
+                    <img src="media/images/planes/plan_dos.png" class="card-img-top" alt="Plan 2" style="box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);background-color: #48a6a8; border-top-left-radius: 30px;">
+                    <div class="card-body">
+                        <p class="card-text">
+                            <br>• Recorrido por senderos ecológicos
+                            <br>• Guía turístico
+                            <br>• Burroteca
+                            <br>• Parqueadero
+                            <br>• Equinos bien cuidados
+                            <br>• Almuerzo
+                            <br>• Licor y decoración
+                        </p>
+                        
+                        <h3 class="card-title" style="width: 100%; text-align: center;">$120.000</h3>
+                        <a href="#" class="btn btn-primary" style="background-color: #fecb75;border-color: #fecb75; color: black;font-size: 20px;width: 100%;">Reservar ahora</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div class="card">
+                    <img src="media/images/planes/plan_tres.png" class="card-img-top" alt="Plan 3" style="box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);background-color: #48a6a8; border-top-left-radius: 30px;">
+                    <div class="card-body">
+                        <p class="card-text">
+                            <br>• Recorrido por senderos ecológicos
+                            <br>• Guía turístico
+                            <br>• Burroteca
+                            <br>• Parqueadero
+                            <br>• Equinos bien cuidados
+                            <br>• Almuerzo
+                            <br>• Licor, sombrero, y poncho
+                        </p>
+                        
+                        <h3 class="card-title" style="width: 100%; text-align: center;">$140.000</h3>
+                        <a href="#" class="btn btn-primary" style="background-color: #fecb75;border-color: #fecb75; color: black;font-size: 20px;width: 100%;">Reservar ahora</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    <div class="container">
+        <h1 style="margin-top: 50px;margin-bottom: 20px;text-align: center;">Detalles</h1>
+        <div class="row">
+            <div class="col-md-6" style="background-color: white;padding: 30px;font-size: 20px;">
+                🛤️ <b>Recorrido:</b> 1, 2 o 3 horas por senderos ecológicos, pinera, y ríos. ¡El tiempo lo eliges tú!
+                <br><br>
+                🏇 <b>Guía Turístico:</b> Siempre acompañados por un experto en equinos.
+                <br><br>
+                📻 <b>Burroteca:</b> Música variada para acompañar el recorrido. (Opción sin música disponible).
+                <br><br>
+                🚘 <b>Parqueadero:</b> Incluido en el precio de la cabalgata.
+                <br><br>
+                🐴 <b>Equinos:</b> Caballos bien cuidados y aptos para todos los niveles de experiencia.
+                <br><br>
+                🍽️ <b>Almuerzo Incluido:</b> Opción de sancocho, bandeja paisa o asado.
+            </div>
+            <div class="col-md-6" style="background-color: white;padding: 30px; font-size: 20px;">
+                🍾 <b>Licor a su Elección:</b> El número de asistentes define la cantidad de licor.
+                <br><br>
+                🎉 <b>Celebramos el Cumpleaños o el Evento:</b> Con decoración y torta para el festejado.
+                <br><br>
+                🎩 <b>Sombrero:</b> Incluido en el plan.
+                <br><br>
+                🧣 <b>Poncho:</b> También incluido en el plan.
+                <br><br>
+                🥃 <b>Licor de Bienvenida:</b> Para comenzar la experiencia con un brindis.
+                <br><br>
+                <b>Nota:</b> si la cabalgata es privada debe adicionar el valor de 80000 pesos por concepto de guía, y así podrías escoger la hora y el día de su preferencia.
+            </div>
+        </div>
+    </div>
+</div>
+    <div style="margin-left: 5%; margin-right: 5%;width: 90%;height: 5px;background-color: lightgray; margin-top: 20px;margin-bottom: 20px;"></div>
+    <div style="width: 90%; text-align: center;background-color: white;border-radius: 30px;margin-left: 5%;margin-right: 5%;">
+        <h1 style="color: #48a6a8;"><br>Conoce Nuestra Experiencia 🌟</h1>
+        <p  style="font-size: 20px; text-align: justify;margin: 30px;"> Todas las personas, tanto turistas como locales, nos recomiendan por nuestros excelentes servicios. Vive algo único y diferente con nosotros. Explora las opiniones de quienes ya han disfrutado de nuestras cabalgatas y aventuras, y descubre por qué somos la elección preferida en Medellín. ¡Te esperamos para crear juntos recuerdos inolvidables! 🐴🏞️🎉<br><br></p>
+    </div>
+    <div id="full-screen-container">
+        <div id="background-image"></div>
+        <div id="slider" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner" style="justify-content: center; text-align: center; padding-top: 20%;">
+            <div class="carousel-item active" >
+              <h3 style="color: white;"><b>"</b>El mejor lugar para hacer cabalgata.<br>Es hermoso el recorrido y la gente<br>te trata excelente.<b>"</b></h3>
+              <h1 style="color: #48a6a8;">Juan Carrillo</h1>
+              <a href="https://goo.gl/maps/cMC9uUc4bqoUqwbd7" style="text-decoration: none;color: white;background-color: black; border-radius: 10px;"><b style="color: black;">. . .</b>Ver Reseña<b style="color: black;">. . .</b></a>
+            </div>
+            <div class="carousel-item">
+                <h3 style="color: white;"><b>"</b>Un lugar mágico, de película super
+                    <br>recomendable y confiable, el señor
+                    <br>que tiene los caballos es súper atento...<b>"</b></h3>
+                <h1 style="color: #48a6a8;">Salvador Magaña</h1>
+                <a href="https://goo.gl/maps/RN9KAZfTQSvcjYAJ6" style="text-decoration: none;color: white;background-color: black; border-radius: 10px;"><b style="color: black;">. . .</b>Ver Reseña<b style="color: black;">. . .</b></a>
+            </div>
+            
+            <div class="carousel-item">
+                <h3 style="color: white;"><b>"</b>Excelentes cabalgatas en medellin. Muy
+                    <br>agradable el paseo y los guías muy atentos.
+                    <br>Lo que más disfrute fue la buena música ...<b>"</b></h3>
+                <h1 style="color: #48a6a8;">Daniel Sánchez</h1>
+                <a href="https://goo.gl/maps/ecUPcr6MtdS5q7e88" style="text-decoration: none;color: white;background-color: black; border-radius: 10px;"><b style="color: black;">. . .</b>Ver Reseña<b style="color: black;">. . .</b></a>
+            </div>
+            
+            <div class="carousel-item">
+                <h3 style="color: white;"><b>"</b>Buenísimo servicio y atención.
+                    <br>Pasamos un día espectacular. 
+                    <br>Muy seguro.<b>"</b></h3>
+                <h1 style="color: #48a6a8;">Maryuby Farah</h1>
+                <a href="https://goo.gl/maps/AXFN4MK4VwUNQTo29" style="text-decoration: none;color: white;background-color: black; border-radius: 10px;"><b style="color: black;">. . .</b>Ver Reseña<b style="color: black;">. . .</b></a>
+            </div>
+            <!-- Agrega más elementos si necesitas -->
+          </div>
+          <ol class="carousel-indicators">
+            <li data-target="#slider" data-slide-to="0" class="active"></li>
+            <li data-target="#slider" data-slide-to="1"></li>
+            <li data-target="#slider" data-slide-to="2"></li>
+            <li data-target="#slider" data-slide-to="3"></li>
+            <!-- Agrega más elementos si necesitas -->
+          </ol>
+        </div>
+      </div>
+      <div style="margin-left: 5%; margin-right: 5%;width: 90%;height: 5px;background-color: lightgray; margin-top: 20px;margin-bottom: 20px;"></div>
+      <div style="width: 90%; text-align: center;background-color: white;border-radius: 30px;margin-left: 5%;margin-right: 5%;">
+        <h1 style="color: #48a6a8;"><br>🧭 Tu Ruta Hacia la Aventura 🌲</h1>
+        <p  style="font-size: 20px; text-align: justify;margin: 30px;"> 🗺️ Encuentra la forma más fácil de llegar a nuestras ubicaciones. Te ofrecemos mapas y direcciones detalladas. ¡La aventura está a un paso! 🏞️<br><br></p>
+    </div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.3401284457505!2d-75.64139541114504!3d6.084793799999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e468750b9c4fe7d%3A0x292c4df4219e5b38!2scabalgatas%20caldas!5e0!3m2!1ses!2sus!4v1692410387191!5m2!1ses!2sus" width="90%" height="450" style="border:0;margin-left: 5%;margin-right: 5%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     
+      <div style="margin-left: 5%; margin-right: 5%;width: 90%;height: 5px;background-color: lightgray; margin-top: 20px;margin-bottom: 20px;"></div>
+      <div style="width: 90%; text-align: center;background-color: white;border-radius: 30px;margin-left: 5%;margin-right: 5%;">
+        <h1 style="color: #48a6a8;"><br>Conoce Nuestros Medios de Pago 💵💳</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6" style="background-color: white;padding: 30px;font-size: 20px;text-align: left;">
+                        <p>
+                        <b>Compra por medio del link de pago, y ten en cuenta las siguientes recomendaciones: 📝</b>
+                        <br>
+                        <br>- Se tiene un incremento de comisión del 🏦 banco. (5%)
+                        <br>- Utilizar la misma dirección de email registrada por el tarjetahabiente con el banco emisor.
+                        <br>- Ingresar el nombre del tarjetahabiente tal y como aparece en la tarjeta usada.
+                        <br>- Para tarjeta y cliente internacional: 👇
+                        <br>  1. Omitir el campo de ●Tipo y ●Número de documento
+                        <br>  2. Realizar el pago desde un computador o celular con vista de escritorio.
+                        <br>
+                        <br>De no seguir estas recomendaciones, la transacción podría ser rechazada.
+                        <br></p>
+                     </div>
+                    <div class="col-md-6" style="background-color: white;padding: 30px; font-size: 20px; text-align: left;">
+                        <p><b>Pagos por Cuentas Bancarias:</b>
+                        <br>- Cuenta de ahorros Bancolombia: Número: 91234047995, Ahorros Bancolombia
+                        <br>- Nequi: 3133336835, Nombre: Juan Carlos Correa
+                        <br>
+                        <br>También tenemos opción de pago con tarjeta de crédito 💳 o PSE; debes solicitar el link de pago.
+                        <br>
+                        <br>Al hacer la transferencia, envía soporte de pago como foto o captura de pantalla para confirmarte el recibido. 🏇🏼🎉
+                        <br><br></p>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
 </body>
 </html>
