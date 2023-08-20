@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cabalgatas</title>
-    <link rel="icon" href="media/images/logo.png" type="image/x-icon">
+    <link rel="icon" href="media/images/caballo.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-o7xHQZzr6hZ6wKgqjx4H9p/RtB47F4p4QMNd6eR1IcM=" crossorigin="anonymous"></script>
@@ -17,13 +17,13 @@
     <!-- -----------------------------------SECCION_1_INICIO------------------------------------- -->
     <!-- ---------------------------------------------------------------------------------------- -->
     <!-- ---------------------------------------------------------------------------------------- -->
-    <nav class="navbar navbar-expand-lg justify-content-center navbar-dark" style="height: 150px;background-color: black; width: 100%;padding-left: 0%;margin-left: 0%;margin-right: 0%;padding-right: 0%;">
+    <nav id="navbar" class="navbar navbar-expand-lg justify-content-center navbar-dark " style="height: 150px;background-color: black; width: 100%;padding-left: 0%;margin-left: 0%;margin-right: 0%;padding-right: 0%;">
         <div class="container" style="padding-left: 0%;margin-left: 0%;margin-right: 0%;padding-right: 0%;">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="margin-left: 30px;">
                 <i class="fas fa-bars navbar-toggler-icon"></i>
             </button>
             
-            <img src="media/images/logo_cabalgatas.png" style="width: 200px;">
+            <a href="#contenedor-home"><img src="media/images/logo_cabalgatas.png" style="width: 200px;"></a>
             <div class="collapse navbar-collapse justify-content-center menulinks" id="navbarSupportedContent" style="padding-left: 0%;margin-left: 0%;margin-right: 0%;padding-right: 0%;" >
                 
                 <ul class="navbar-nav">
@@ -46,7 +46,7 @@
                     <a class="nav-link" href="#Preguntas"><b>PREGUNTAS FRECUENTES</b></a>
                 </li>
                 <li class="nav-item" style="margin-right: 10px;">
-                    <a class="nav-link" href="#Seccion-Contacto"><b>CONTACTO</b></a>
+                    <a class="nav-link" href="#Contacto"><b>CONTACTO</b></a>
                 </li>
                 <li class="nav-item" style="margin-right: 10px;">
                     <a class="nav-link" href="#Seccion-Contacto"><b>BLOG</b></a>
@@ -99,7 +99,7 @@
                         </p>
                         
                         <h3 class="card-title" style="width: 100%; text-align: center;">$99.000</h3>
-                        <a href="#" class="btn btn-primary" style="background-color: #fecb75;border-color: #fecb75; color: black;font-size: 20px;width: 100%;">Reservar ahora</a>
+                        <a href="https://wa.link/5p0b6a" class="btn btn-primary" style="background-color: #fecb75;border-color: #fecb75; color: black;font-size: 20px;width: 100%;">Reservar ahora</a>
                     </div>
                 </div>
             </div>
@@ -118,7 +118,7 @@
                         </p>
                         
                         <h3 class="card-title" style="width: 100%; text-align: center;">$120.000</h3>
-                        <a href="#" class="btn btn-primary" style="background-color: #fecb75;border-color: #fecb75; color: black;font-size: 20px;width: 100%;">Reservar ahora</a>
+                        <a href="https://wa.link/1qr4kd" class="btn btn-primary" style="background-color: #fecb75;border-color: #fecb75; color: black;font-size: 20px;width: 100%;">Reservar ahora</a>
                     </div>
                 </div>
             </div>
@@ -137,7 +137,7 @@
                         </p>
                         
                         <h3 class="card-title" style="width: 100%; text-align: center;">$140.000</h3>
-                        <a href="#" class="btn btn-primary" style="background-color: #fecb75;border-color: #fecb75; color: black;font-size: 20px;width: 100%;">Reservar ahora</a>
+                        <a href="https://wa.link/jeqleq" class="btn btn-primary" style="background-color: #fecb75;border-color: #fecb75; color: black;font-size: 20px;width: 100%;">Reservar ahora</a>
                     </div>
                 </div>
             </div>
@@ -232,22 +232,43 @@
     <!-- -----------------------------------SECCION_4_GALERIA------------------------------------ -->
     <!-- ---------------------------------------------------------------------------------------- -->
     <!-- ---------------------------------------------------------------------------------------- -->
-    <div id="Galeria" style="margin-left: 5%; margin-right: 5%;width: 90%;height: 5px;background-color: lightgray; margin-top: 20px;margin-bottom: 50px;"></div>
-      
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-                <img src="foto1.jpg" alt="Imagen 1" class="gallery-img">
+    
+      <div id="Galeria" style="margin-left: 5%; margin-right: 5%;width: 90%;height: 5px;background-color: lightgray; margin-top: 20px;margin-bottom: 50px;"></div>
+      <div style="width: 90%; text-align: center;background-color: white;border-radius: 30px;margin-left: 5%;margin-right: 5%;">
+        <h1 style="color: #48a6a8;"><br>Momentos y Buenos Recuerdos en Nuestro Tour a Caballo 📸</h1>
+        <p style="font-size: 20px; text-align: justify; margin: 30px;">
+            Así como todas estas personas han vivido una experiencia inolvidable, el próximo puedes ser tú. Explora nuestras fotos y videos, y siente la emoción de las aventuras que te esperan. Desde paisajes impresionantes hasta sonrisas radiantes, cada recuerdo capturado es una invitación a unirte a nosotros. ¡Anímate y sé parte de esta experiencia única! 🐴🌄😃</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <img src="media/images/galeria/1.jpeg" alt="Imagen 1" class="gallery-img">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <img src="media/images/galeria/2.jpeg" alt="Imagen 2" class="gallery-img">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <img src="media/images/galeria/3.jpeg" alt="Imagen 3" class="gallery-img">
+                </div>
+                <!-- Agregar más fotos aquí, siguiendo el mismo patrón -->
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-                <img src="foto2.jpg" alt="Imagen 2" class="gallery-img">
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-                <img src="foto3.jpg" alt="Imagen 3" class="gallery-img">
-            </div>
-            <!-- Agregar más fotos aquí, siguiendo el mismo patrón -->
         </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <img src="media/images/galeria/4.jpeg" alt="Imagen 1" class="gallery-img">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <img src="media/images/galeria/5.jpeg" alt="Imagen 2" class="gallery-img">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <img src="media/images/galeria/6.jpeg" alt="Imagen 3" class="gallery-img">
+                </div>
+                <!-- Agregar más fotos aquí, siguiendo el mismo patrón -->
+            </div>
+        </div> 
     </div>
+
+
     <!-- ---------------------------------------------------------------------------------------- -->
     <!-- ---------------------------------------------------------------------------------------- -->
     <!-- -----------------------------------SECCION_5_UBICACIÓN---------------------------------- -->
@@ -259,8 +280,13 @@
         <p  style="font-size: 20px; text-align: justify;margin: 30px;"> 🗺️ Encuentra la forma más fácil de llegar a nuestras ubicaciones. Te ofrecemos mapas y direcciones detalladas. ¡La aventura está a un paso! 🏞️<br><br></p>
     </div>
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.3401284457505!2d-75.64139541114504!3d6.084793799999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e468750b9c4fe7d%3A0x292c4df4219e5b38!2scabalgatas%20caldas!5e0!3m2!1ses!2sus!4v1692410387191!5m2!1ses!2sus" width="90%" height="450" style="border:0;margin-left: 5%;margin-right: 5%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <!-- ---------------------------------------------------------------------------------------- -->
+    <!-- ---------------------------------------------------------------------------------------- -->
+    <!-- -----------------------------------SECCION_6_PAGOS-------------------------------------- -->
+    <!-- ---------------------------------------------------------------------------------------- -->
+    <!-- ---------------------------------------------------------------------------------------- -->
     
-      <div id="Pagos" style="margin-left: 5%; margin-right: 5%;width: 90%;height: 5px;background-color: lightgray; margin-top: 20px;margin-bottom: 20px;"></div>
+      <div id="Pagos" style="margin-left: 5%; margin-right: 5%;width: 90%;height: 5px;background-color: lightgray; margin-top: 20px;margin-bottom: 50px;"></div>
       <div style="width: 90%; text-align: center;background-color: white;border-radius: 30px;margin-left: 5%;margin-right: 5%;">
         <h1 style="color: #48a6a8;"><br>Conoce Nuestros Medios de Pago 💵💳</h1>
             <div class="container">
@@ -292,20 +318,13 @@
                 </div>
             </div>
     </div>
-    <!-- ---------------------------------------------------------------------------------------- -->
-    <!-- ---------------------------------------------------------------------------------------- -->
-    <!-- -----------------------------------SECCION_6_CONTACTO----------------------------------- -->
-    <!-- ---------------------------------------------------------------------------------------- -->
-    <!-- ---------------------------------------------------------------------------------------- -->
-
     
     <!-- ---------------------------------------------------------------------------------------- -->
     <!-- ---------------------------------------------------------------------------------------- -->
     <!-- -----------------------------------SECCION_7_PREGUNTAS---------------------------------- -->
     <!-- ---------------------------------------------------------------------------------------- -->
     <!-- ---------------------------------------------------------------------------------------- -->
-
-    <div id="Preguntas" style="margin-left: 5%; margin-right: 5%;width: 90%;height: 5px;background-color: lightgray; margin-top: 20px;margin-bottom: 20px;"></div>
+    <div id="Preguntas" style="margin-left: 5%; margin-right: 5%;width: 90%;height: 5px;background-color: lightgray; margin-top: 20px;margin-bottom: 50px;"></div>
       <div style="width: 90%; text-align: center;background-color: white;border-radius: 30px;margin-left: 5%;margin-right: 5%;">
         <h1 style="color: #48a6a8;"><br>Preguntas Frecuentes 🧐</h1>
         <p class="text-center" style="font-size: 20px;">Aquí encontrarás las respuestas a las preguntas más comunes sobre nuestros recorridos y servicios. Si tienes alguna pregunta adicional, no dudes en contactarnos.</p>
@@ -328,7 +347,7 @@
                         <h5><strong>🧳 ¿Qué debo llevar conmigo para la aventura? ¿Hay algún requerimiento especial de vestimenta?</strong></h5>
                         <p>Te recomendamos llevar ropa cómoda, protector solar y una botella de agua. Todos los otros equipos serán proporcionados.</p>
             
-                     </div>
+                    </div>
                     <div class="col-md-6" style="background-color: white;padding: 30px; font-size: 20px; text-align: left;">
                         <h5><strong>🕒 ¿Cuánto duran los recorridos y cómo elijo la duración?</strong></h5>
                         <p>Los recorridos varían entre 1 y 3 horas. ¡Tú eliges el tiempo que mejor se ajuste a tu agenda!</p>
@@ -350,28 +369,55 @@
             </div>
     </div>
 
-
-
-
-
-    <div class="container mt-5">
+    <!-- ---------------------------------------------------------------------------------------- -->
+    <!-- ---------------------------------------------------------------------------------------- -->
+    <!-- -----------------------------------SECCION_8_CONTACTO----------------------------------- -->
+    <!-- ---------------------------------------------------------------------------------------- -->
+    <!-- ---------------------------------------------------------------------------------------- -->
+    <div  style="margin-left: 5%; margin-right: 5%;width: 90%;height: 5px;background-color: lightgray; margin-top: 20px;margin-bottom: 50px;"></div>
+    
+    <div id="Contacto" class="container-fluid " style="background-image: url('media/images/reseña/resena.jpg'); background-size: cover; background-position: center;">
         <div class="row">
-            <div class="col">
-                <h1 class="text-center"></h1>
-                
-
+            <div class="col-12 text-center py-5" style="background-color: rgba(0, 0, 0, 0.3)">
+                <h1 style="color: #fecb75;">📞 Contáctanos y Comienza tu Aventura Ecuestre Ahora</h1>
+                <p style="font-size: 20px;color: white;">
+                    <b>Estamos aquí para ayudarte en cada paso de tu emocionante viaje. ¿Preguntas sobre precios, horarios o reservas? Comunícate con nosotros y haremos de tu experiencia ecuestre en Medellín y Antioquia una inolvidable. ¡Hablemos ahora! ☎️</b>
+                </p>
+                <br><br>
+                <img src="media/images/qr.png" alt="Imagen Descriptiva" class="img-fluid mb-3" style="max-width: 400px;">
+                <br><br>
+                <a href="https://wa.link/jl4gcl" class="btn btn-primary" style="background-color: #25D366; border-color: white;color: white;">WhatsApp </a>
+                <br><br>
+                <a href="https://colosalsoftware.com/" style="text-decoration: none;color: #201E1E; ">
+                    <img src="media/images/COLOSAL.png" style="width: 400px; margin-top: 50px;">   
+                </a>
             </div>
         </div>
-    </div>    
+    </div>
     
     <!-- ---------------------------------------------------------------------------------------- -->
     <!-- ---------------------------------------------------------------------------------------- -->
-    <!-- -----------------------------------SECCION_8_BLOCK-------------------------------------- -->
+    <!-- -----------------------------------SECCION_9_BLOCK-------------------------------------- -->
     <!-- ---------------------------------------------------------------------------------------- -->
     <!-- ---------------------------------------------------------------------------------------- -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var previousScroll = 0;
+            $(window).scroll(function () {
+                var currentScroll = $(this).scrollTop();
+                if (currentScroll > previousScroll) {
+                    $('#navbar').addClass('hidden'); // Ocultar la barra cuando se desplaza hacia abajo
+                } else {
+                    $('#navbar').removeClass('hidden'); // Mostrar la barra cuando se desplaza hacia arriba
+                }
+                previousScroll = currentScroll;
+            });
+        });
+    </script>
 
 </body>
 </html>

@@ -4,6 +4,7 @@ body{
     margin-right: 0%;
     padding-left: 0%;
     padding-right: 0%;
+    text-align: justify;
 }
 .nav-link {
     color: #f4f6ff !important;
@@ -11,6 +12,18 @@ body{
 .nav-link:focus {
     color: #fecb75 !important;
     font-weight: bold;
+}
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: transform 0.3s;
+  z-index: 9999;
+}
+
+#navbar.hidden {
+  transform: translateY(-100%);
 }
 #full-screen-container {
     position: relative;
@@ -101,10 +114,14 @@ body{
     object-fit: cover;
     z-index: -1;
   }
-  
+  .gallery-img {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+}
   #titulo-home {
     position: absolute;
-    top: 100px;
+    top: 200px;
     left: 4%;
     text-align: left;
     background-color: rgba(0, 0, 0, 0.7);
@@ -119,7 +136,7 @@ body{
   }
   #texto-home {
     position: absolute;
-    top: 295px;
+    top: 395px;
     left: 7%;
     text-align: left;
     background-color: rgba(72, 166, 168, 0.9);
