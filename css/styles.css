@@ -6,6 +6,13 @@ body{
     padding-right: 0%;
     text-align: justify;
 }
+#whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 100px;
+  z-index: 1000;
+}
 .nav-link {
     color: #f4f6ff !important;
 }
@@ -161,7 +168,7 @@ body{
         width: 70%;
         left: 0;
         top: auto;
-        margin-top: 100px;
+        margin-top: 200px;
         font-size: 40px;
     }
     #titulo-home b{
