@@ -13,6 +13,10 @@ body{
   width: 100px;
   z-index: 1000;
 }
+.imagenderechos{
+  width: 300px; 
+  margin-top: 50px;
+}
 .nav-link {
     color: #f4f6ff !important;
 }
@@ -172,7 +176,7 @@ body{
         font-size: 40px;
     }
     #titulo-home b{
-        font-size: 45px;
+        font-size: 40px;
     }
     #texto-home {
         position: static;
@@ -184,6 +188,10 @@ body{
     .card{
         height: 580px;
         margin-top: 50px;
+    }
+    .imagenderechos{
+      width: 150px; 
+      margin-top: 50px;
     }
   }
    
