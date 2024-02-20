@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cabalgatas</title>
     <link rel="icon" href="https://juancorrea-bucket-s3.s3.amazonaws.com/cabalgatasmedellin/media/images/caballo.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Asegúrate de que la versión de Bootstrap CSS coincida con la de Bootstrap JS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://juancorrea-bucket-s3.s3.amazonaws.com/cabalgatasmedellin/css/styles.css">
+    <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-o7xHQZzr6hZ6wKgqjx4H9p/RtB47F4p4QMNd6eR1IcM=" crossorigin="anonymous"></script>
-    
 </head>
+    
 <body>
     
     <!-- ---------------------------------------------------------------------------------------- -->
@@ -406,10 +408,13 @@
     <!-- -----------------------------------SECCION_9_BLOCK-------------------------------------- -->
     <!-- ---------------------------------------------------------------------------------------- -->
     <!-- ---------------------------------------------------------------------------------------- -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- jQuery primero, versión completa -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Luego Popper.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <!-- Bootstrap JS al final -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
     <script>
         $(document).ready(function () {
             var previousScroll = 0;
@@ -427,6 +432,7 @@
             });
         });
     </script>
+
 
 </body>
 </html>
