@@ -58,17 +58,27 @@
             </div>  
         </div>
     </nav>
-    <div id="contenedor-home" class="container-fluid">
-        <video autoplay loop muted id="video-home">
-          <source src="https://juancorrea-bucket-s3.s3.amazonaws.com/cabalgatasmedellin/media/videos/home.mp4" type="video/mp4">
-        </video>
-        <p id="titulo-home">Las mejores cabalgatas<br><b>DE MEDELLÍN</b></p>
-        <p id="texto-home">
-          Disfruta con nosotros de una experiencia inolvidable, explorando hermosos paisajes y senderos,
-          y conectándote con la naturaleza y los equinos. Sal de la rutina y sumérgete en esta experiencia
-          única en la ciudad de Medellín y sus alrededores. 🐴🌳🏞️ ¡Te esperamos para vivir una aventura
-          colosal!
-        </p>
+    <!-- ========================= BANNER// ========================= -->
+    <div id="bannerCarousel" class="carousel slide" data-ride="carousel" style="margin-top: 150px">
+        <div class="carousel-inner">
+            
+            <div class="carousel-item active" style="width: 100%;" data-interval="5000">
+                <img src="https://juancorrea-bucket-s3.s3.amazonaws.com/cabalgatasmedellin/media/images/banner_caballistas_1.png" alt="Banner" style="width: 100%;">
+            </div>
+            
+            <div class="carousel-item" style="width: 100%;" data-interval="5000">
+                <img src="https://juancorrea-bucket-s3.s3.amazonaws.com/cabalgatasmedellin/media/images/banner_caballistas_2.png" alt="Banner" style="width: 100%;">
+            </div>
+
+            <a class="carousel-control-prev" href="#bannerCarousel" role="button" data-slide="prev"  style="width: 80px;">
+                <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: rgb(68, 167, 46, 0.7); border-radius: 5px; width: 30px; height: 30px;" ></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#bannerCarousel" role="button" data-slide="next" style="width: 80px;">
+                <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: rgb(68, 167, 46, 0.7); border-radius: 5px; width: 30px; height: 30px;"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
     </div>
     <!-- ---------------------------------------------------------------------------------------- -->
     <!-- ---------------------------------------------------------------------------------------- -->
@@ -76,16 +86,25 @@
     <!-- ---------------------------------------------------------------------------------------- -->
     <!-- ---------------------------------------------------------------------------------------- -->
     <div id="Planes" style="margin-left: 5%; margin-right: 5%;width: 90%;height: 5px;background-color: lightgray; margin-top: 20px;margin-bottom: 50px;"></div>
+    <div class="container-fluid" style="overflow-x: hidden;">
+        <div class="row">
+            <div class="col-md-6" style="text-align: center;margin-bottom: 20px;">
+                <!-- Mantén el aspect ratio del iframe responsive -->
+                <div style="position: relative; width: 100%; padding-top: 56.25%;">
+                    <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/vtj4y35K5Dg?si=5yMCRxPLDN8MB2lK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-md-6" style="text-align: center;margin-bottom: 20px;">
+                <!-- Asegura que la imagen sea responsive y mantenga sus proporciones -->
+                <img style="width: 100%; height: auto;" src="https://juancorrea-bucket-s3.s3.amazonaws.com/cabalgatasmedellin/media/images/planes/titulo_planes.png">
+                <p style="font-size: 20px; text-align: justify;">Embárcate en una aventura ecuestre única con nuestros planes de alquiler de caballos. Disfruta de recorridos panorámicos, avistamiento de aves y cruce de ríos en Caldas, Antioquia. Nuestros guías expertos te acompañarán para asegurar una experiencia segura y emocionante. 🎶 Puedes elegir tu música favorita para acompañar el viaje.</p>
     
-    <div class="container" style="overflow-x: hidden; width: 100%; text-align: center;">
-        <div style="position: relative; padding-bottom: 56.25%; height: 0;">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/vtj4y35K5Dg?si=5yMCRxPLDN8MB2lK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+            </div>
         </div>
-        <img style="width: 100%;" src="https://juancorrea-bucket-s3.s3.amazonaws.com/cabalgatasmedellin/media/images/planes/titulo_planes.png">
     </div>
     
     <div class="container">
-        <p style="font-size: 20px;">Embárcate en una aventura ecuestre única con nuestros planes de alquiler de caballos. Disfruta de recorridos panorámicos, avistamiento de aves y cruce de ríos en Caldas, Antioquia. Nuestros guías expertos te acompañarán para asegurar una experiencia segura y emocionante. 🎶 Puedes elegir tu música favorita para acompañar el viaje.</p>
+        <p style="font-size: 20px;"></p>
     </div>
     <div class="container">
         <div class="row">
